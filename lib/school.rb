@@ -20,7 +20,7 @@ attr_accessor :school, :name, :grade, :roster
   end
 
   def sort
-    @roster.values.sort!
+    
   end
 
 
