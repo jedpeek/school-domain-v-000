@@ -20,7 +20,7 @@ attr_accessor :school, :name, :grade, :roster
   end
 
   def sort
-      @roster.sort_by{|k,v| v}.to_h
+      @roster.sort_by{|k,v| k.v}.to_h
 
   end
 
