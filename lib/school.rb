@@ -20,10 +20,8 @@ attr_accessor :school, :name, :grade, :roster
   end
 
   def sort
-    @roster.collect do |key|
       @roster.sort.to_h
-    end
-      @roster
+
   end
 
 
