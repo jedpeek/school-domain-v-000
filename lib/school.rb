@@ -21,7 +21,7 @@ attr_accessor :school, :name, :grade, :roster
 
   def sort
     @roster.collect do |key|
-      key.values.sort!
+      @roster.sort.to_h
     end
       @roster
   end
